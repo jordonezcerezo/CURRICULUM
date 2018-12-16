@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.21)  16 DEC 2018 12:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.21)  16 DEC 2018 13:01
 entering extended mode
 **./template.tex
 (template.tex
@@ -1070,7 +1070,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  17553 strings out of 492972
  330871 string characters out of 3126622
- 401245 words of memory out of 3000000
+ 401247 words of memory out of 3000000
  21086 multiletter control sequences out of 15000+200000
  40986 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1081,7 +1081,7 @@ learsans/clr_nrghxx.enc}{C:/Users/jordo/AppData/Local/Programs/MiKTeX 2.9/fonts
 /enc/dvips/clearsans/clr_er7w2x.enc}<C:/Users/jordo/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/intel/clearsans/ClearSans-Regular.pfb><C:/Users/jordo/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on template.pdf (1 page, 45116 bytes).
+Output written on template.pdf (1 page, 45119 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
