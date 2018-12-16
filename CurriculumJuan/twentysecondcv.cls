@@ -132,14 +132,16 @@
 		}
 
 		%------------------------------------------------
-
+		
 		{\Huge\color{mainblue}\cvname}
 
 		%------------------------------------------------
 
-		{\Large\color{black!80}\cvjobtitle}
+		{\Large\color{mainblue!80}\cvjobtitle}
 
 		%------------------------------------------------
+		\vspace*{0.4in}
+
 
 		\renewcommand{\arraystretch}{1.6}
 		\begin{tabular}{p{0.5cm} @{\hskip 0.5cm}p{5cm}}
@@ -149,7 +151,7 @@
 			\ifthenelse{\equal{\cvsite}{}}{}{\textsc{\Large\icon{\Mundus}} & \cvsite\\}
 			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \href{mailto:\cvmail}{\cvmail}}
 		\end{tabular}
-
+		\vspace*{0.4in}
 		%------------------------------------------------
 		
 		\ifthenelse{\equal{\aboutme}{}}{}{
@@ -160,7 +162,7 @@
 		}
 
 		%------------------------------------------------
-		
+		\vspace*{0.2in}
 
 		%------------------------------------------------
 
@@ -170,17 +172,20 @@
 		\skillstext
 		\scriptsize
 	
-			
+		\vspace*{0.4in}	
 		%------------------------------------------------
 			
 		
-					\begin{center}
-				\begin{tikzpicture}[x=\imagescale,y=-\imagescale]
-					\clip (600/2, 567/1.6) circle (576/2);
-					\node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=\imagewidth]{\profilepic}};
-				\end{tikzpicture}
-			\end{center}		
-
+		\begin{center}
+			\begin{tikzpicture}[x=\imagescale,y=-\imagescale]
+				%\clip (600/2, 567/1.6) circle (576/2);
+				\node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=\imagewidth]{\profilepic}};
+			\end{tikzpicture}
+		\end{center}
+		
+		\begin{center}
+		\href{https://github.com/jordonezcerezo}{Link to my GitHub page with the current CV such as some projects (PCB, Verilog Projects)}.
+		\end{center}
 	\end{textblock}
 }
 
