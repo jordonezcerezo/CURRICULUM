@@ -123,12 +123,12 @@
 		%------------------------------------------------
 		
 		\ifthenelse{\equal{\profilepic}{}}{}{
-			\begin{center}
-				\begin{tikzpicture}[x=\imagescale,y=-\imagescale]
-					\clip (600/2, 567/1.6) circle (576/2);
-					\node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=\imagewidth]{\profilepic}};
-				\end{tikzpicture}
-			\end{center}
+			%\begin{center}
+				%\begin{tikzpicture}[x=\imagescale,y=-\imagescale]
+					%\clip (600/2, 567/1.6) circle (576/2);
+					%\node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=\imagewidth]{\profilepic}};
+			%	\end{tikzpicture}
+			%\end{center}
 		}
 
 		%------------------------------------------------
@@ -146,7 +146,7 @@
 			\ifthenelse{\equal{\cvdate}{}}{}{\textsc{\Large\icon{\Info}} & \cvdate\\}
 			\ifthenelse{\equal{\cvaddress}{}}{}{\textsc{\Large\icon{\Letter}} & \cvaddress\\}
 			\ifthenelse{\equal{\cvnumberphone}{}}{}{\textsc{\Large\icon{\Telefon}} & \cvnumberphone\\}
-			%\ifthenelse{\equal{\cvsite}{}}{}{\textsc{\Large\icon{\Mundus}} & \cvsite\\}
+			\ifthenelse{\equal{\cvsite}{}}{}{\textsc{\Large\icon{\Mundus}} & \cvsite\\}
 			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \href{mailto:\cvmail}{\cvmail}}
 		\end{tabular}
 
@@ -173,6 +173,14 @@
 			
 		%------------------------------------------------
 			
+		
+					\begin{center}
+				\begin{tikzpicture}[x=\imagescale,y=-\imagescale]
+					\clip (600/2, 567/1.6) circle (576/2);
+					\node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=\imagewidth]{\profilepic}};
+				\end{tikzpicture}
+			\end{center}		
+
 	\end{textblock}
 }
 
